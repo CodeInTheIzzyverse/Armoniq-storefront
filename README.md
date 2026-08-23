@@ -1,5 +1,7 @@
 # Armoniq Storefront
 
+[![Quality gate status](https://sonarcloud.io/api/project_badges/measure?project=CodeInTheIzzyverse_Armoniq-storefront&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=CodeInTheIzzyverse_Armoniq-storefront) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=CodeInTheIzzyverse_Armoniq-storefront&metric=bugs)](https://sonarcloud.io/summary/new_code?id=CodeInTheIzzyverse_Armoniq-storefront) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=CodeInTheIzzyverse_Armoniq-storefront&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=CodeInTheIzzyverse_Armoniq-storefront) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=CodeInTheIzzyverse_Armoniq-storefront&metric=coverage)](https://sonarcloud.io/summary/new_code?id=CodeInTheIzzyverse_Armoniq-storefront) [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=CodeInTheIzzyverse_Armoniq-storefront&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=CodeInTheIzzyverse_Armoniq-storefront) [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=CodeInTheIzzyverse_Armoniq-storefront&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=CodeInTheIzzyverse_Armoniq-storefront) [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=CodeInTheIzzyverse_Armoniq-storefront&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=CodeInTheIzzyverse_Armoniq-storefront)
+
 > Customer-facing ecommerce website for Armoniq, a fictional music store offering instruments, studio equipment, accessories, and other music-related products.
 
 **Status:** In Development  
@@ -48,28 +50,28 @@ The Storefront is an independent Next.js application that communicates with the 
 
 | Category | Technology |
 | --- | --- |
-| Framework | Next.js |
-| UI Library | React |
-| Language | TypeScript |
-| Package Manager | pnpm |
-| Styling | SCSS |
+| Framework | ![Next JS](https://img.shields.io/badge/Next-black.svg?style=for-the-badge&logo=next.js&logoColor=white) |
+| UI Library | ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) |
+| Language | ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) |
+| Package Manager | ![PNPM](https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=for-the-badge&logo=pnpm&logoColor=f69220) |
+| Styling | ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) |
 | HTTP Client | Axios |
 | Server State | TanStack Query |
 | Client State | Zustand |
-| Forms | React Hook Form |
-| Validation | Zod |
+| Forms | ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white) |
+| Validation | ![Zod](https://img.shields.io/badge/zod-%233068b7.svg?style=for-the-badge&logo=zod&logoColor=white) |
 | Icons | Lucide React |
 | Date Utilities | date-fns |
 | Carousel | Embla Carousel |
 | Maps | `@vis.gl/react-google-maps` |
-| Unit/Component Testing | Vitest |
-| Component Testing | Testing Library |
+| Unit/Component Testing | ![Vitest](https://img.shields.io/badge/-Vitest-252529?style=for-the-badge&logo=vitest&logoColor=FCC72B) |
+| Component Testing | ![Testing Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white) |
 | E2E Testing | Playwright |
-| Code Quality | ESLint + Prettier |
+| Code Quality | [ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white) + ![Prettier](https://img.shields.io/badge/prettier-%23192a32?style=for-the-badge&logo=prettier&logoColor=dc524a) |
 | Git Hooks | Husky + lint-staged + Commitlint |
-| Code Analysis | SonarCloud |
-| CI/CD | GitHub Actions |
-| Deployment | Vercel |
+| Code Analysis | ![SonarQube](https://img.shields.io/badge/sonarqube-%23126ED3.svg?style=for-the-badge&logo=sonarqubecloud&logoColor=white) |
+| CI/CD | ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) |
+| Deployment | ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) |
 
 ## Architecture
 
