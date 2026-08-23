@@ -6,7 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+
+    "test:unit": "vitest run",
+    "test:integration": "vitest run --dir tests/integration",
+    "test:e2e": "playwright test",
+    "test:coverage": "vitest run --coverage",
+
+    "test": "pnpm test:unit"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.9.1",
