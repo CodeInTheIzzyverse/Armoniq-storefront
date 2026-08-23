@@ -110,6 +110,8 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm exec playwright install --with-deps
       - run: pnpm test:e2e
+        env:
+          PORT: 3000
 
   sonar:
     name: SonarCloud analysis
